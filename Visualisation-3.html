@@ -1,0 +1,133 @@
+<!-- PAGE 2 of 7: VISUALISATION PAGE 1 of 4 -->
+<!-- PAGE 3 of 7: VISUALISATION PAGE 2 of 4 -->
+<!-- PAGE 4 of 7: VISUALISATION PAGE 3 of 4 -->
+<!-- PAGE 5 of 7: VISUALISATION PAGE 4 of 4 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualisation-3: City Latitude vs Cloudiness </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+  </head>
+
+<body>
+
+<!-- NAVIGATION BAR -->
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"> Latitude </a>
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> -->
+    <button type=“button” class="navbar-toggler collapse" data-toggle=“collapse” data-target="#bs-example-navbar-collapse-1" aria-expanded=“false”>
+      <span class=“sr-only”>Toggle Navigation</span>
+      <span class=“icon-bar”></span>
+      <span class=“icon-bar”></span>
+      <span class=“icon-bar”></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <!-- <a class="nav-link active" aria-current="page" href="index.html">Home</a> -->
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Plots
+          </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="Visualisation-1.html">Max Temperature</a></li>
+              <li><a class="dropdown-item" href="Visualisation-2.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="Visualisation-3.html">Cloudiness</a></li>
+              <li><a class="dropdown-item" href="Visualisation-4.html">Wind Speed</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Comparisons.html">Comparison</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Data.html">Data</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- VISUALISATION 3 : MAIN CONTENT -->
+
+<div class="container">
+  <section class="row" id="main-box">
+    <!-- <div class="row" id="content-box"> -->
+
+      <div class="col col-md-8" id="content-half">
+        
+          <br>
+
+            <h1 class="header-left"> City Latitude vs. Cloudiness </h1> 
+            <hr>
+            <img src="WebVisualisations/Resources/assets/images/Fig3.png" id="content-img-vis"  class="img-responsive" alt="Fig3-Latitude-v-Cloudiness">
+            <br>
+            <p style="font-size: 13px; font-family:Arial, Helvetica, sans-serif;"> 
+                The level of cloudiness is also showing a weak realtionship with the location of cities in both the southern and northern hemispheres.
+                However, the results seem to suggest that most cities observed in the data have 0% cloudiness. 
+                This may be attributed to when this data was collected, i.e. in May.
+              <br>
+              <br>
+                Cities in most of the southern hemisphere will be transitioning from the Summer to the Autumn season. 
+                While cities in the northern hemisphere are experiencing the last month of Spring time, and transitioning into Summer.
+            </p>
+        </div>
+
+<!-- VISUALISATION 3 : LEFT BOX -->
+
+<div class="col col-md-4" id="content-vis">
+
+  <br>
+
+  <h2 class="heading_right"> Visualisation </h2>
+
+  <hr>
+  
+  <div class="row">
+    <div class="col col-6 col-sm-6">
+      <figure class="box-1">
+        <a target="_self" href="Visualisation-1.html">
+          <img src="WebVisualisations/Resources/assets/images/Fig1.png" class = "img-responsive" id="vis-imgs" alt="Fig1-Latitude-v-MaxTemp">
+        </a>
+      </figure>
+    </div>
+
+    <div class="col col-6 col-sm-6">
+      <figure class="box-2">
+        <a target="_self" href="Visualisation-2.html">
+          <img src="WebVisualisations/Resources/assets/images/Fig2.png" class = "img-responsive" id="vis-imgs" alt="Fig2-Latitude-v-Humidity">
+        </a>
+      </figure>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col col-6 col-sm-6">
+      <figure class="box-3">
+        <a target="_self" href="Visualisation-3.html">
+          <img src="WebVisualisations/Resources/assets/images/Fig3.png" class = "img-responsive" id="vis-imgs" alt="Fig3-Latitude-v-Cloudiness">
+        </a>                
+      </figure>
+    </div>
+
+    <div class="col col-6 col-sm-6">
+      <figure class="box-4">
+        <a target="_self" href="Visualisation-4.html"> 
+          <img src="WebVisualisations/Resources/assets/images/Fig4.png" class = "img-responsive" id="vis-imgs" alt="Fig4-Latitude-v-WindSpeed">
+        </a>
+      </figure>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
